@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+	<script type="text/javascript" src='http://ajax.microsoft.com/ajax/jQuery.Validate/1.6/jQuery.Validate.min.js'></script>
+	<script type="text/javascript" src='{{MEDIA_URL}}javascript/register.js'></script>
+	<div id='register'>
+		<h1>新用户注册</h1>
+		<form id='register-content' type='post'>
+			{% csrf_token %}
+			{{form.as_ul}}
+			<li>
+				<input type="checkbox" checked="checked" class="auto_login" id="auto_login" value="" name="">
+				<span>我接受<<本网站网络服务协议>></span>
+			</li>
+			<li>
+				<input id='submitRegister' type="button" value="注册" class="reg-button" />
+			</li>
+		</form>
+	</div>
+{% endblock %}

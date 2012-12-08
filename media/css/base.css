@@ -1,0 +1,23 @@
+body{ width:100%; font-size:1em; margin:0; padding:0; font-family:arial;}
+.clear{ clear:both;}
+#header{ width:100%; margin:0 auto; height:50px; background:#F1F1F1; border-bottom:1px solid #DCDCDC;}
+#header .container{ width:90%;}
+#header .container ul.login{ float:right;}
+#header .container ul.login li{ list-style:none; float:left; margin-right:10px;}
+#header .container ul.login li:hover{ color:#f60; text-decoration:underline; cursor:pointer;}
+#content{ width:90%; margin:0 auto;}
+#publish-button{ width:220px; height:50px; background:url(../images/publishbutton.gif) no-repeat; cursor:pointer;}
+#publish-button:hover{ background-position:0 -51px;}
+#register{ border:1px solid #E5E5E5; padding:12px 10px;}
+#register h1{ color:#666; font-weight:normal;}
+#register-content{ margin-left:70px;}
+#register-content li{ list-style:none; height:35px; line-height:35px; padding:10px 0;}
+#register-content li label{ display:inline-block; width:100px;}
+#register-content li span{ display:inline-block; min-width:100px; font-size:1em; text-align:justify;}
+#register-content li input{ font-family:arial;}
+#register-content li input[type='password'],
+#register-content li input[type='text']{ width:33%; height:30px; font-size:1.5em;}
+#register-content li .reg-button{ width:207px; height:34px; background:url(../images/reg-btn.gif) no-repeat; color:#fff; text-align:center;}
+#register-content li .reg-button:hover{ cursor:pointer;}
+#register-content li label.error{ color:#f00; margin-left:15px;}
+#footer{ width:90%; margin:0 auto;}
