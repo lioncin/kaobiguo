@@ -20,4 +20,4 @@ class KBGUser(User):
     zip = models.CharField(max_length=6, blank=True)
     
     photo = models.ImageField(upload_to="images/userBioPics/%Y/%m/%d", blank=True)
-
+    #This is a new line
